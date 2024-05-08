@@ -18,7 +18,7 @@ public class ExtractPdf {
             int pageCount = document.getNumberOfPages();
 
             // Check if the target page number is valid
-            if (targetPageNumber >= 1 && targetPageNumber <= pageCount) {
+            if (targetPageNumber <= pageCount) {
                 // Extract the target page
                 PDDocument extractedDocument = new PDDocument();
                 extractedDocument.addPage((PDPage) document.getDocumentCatalog().getPages().get(targetPageNumber - 1));
