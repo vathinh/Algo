@@ -1,4 +1,4 @@
-package com.tvt.code.algo.sort;
+package com.tvt.code.ds.arrayMap;
 
 public class CheckVersion {
     public static void main(String[] args) {
